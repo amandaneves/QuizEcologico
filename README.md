@@ -3,7 +3,7 @@
 Trabalho acadêmico desenvolvido em 2015 sobre TI Verde.
 
 Foi feito um jogo de quiz, para conscientização de alunos do ensino fundamental e médio. 
-Ao terminar de responder as perguntas é gerada uma pontuação onde o aluno pode compartilhar sua nota com o professor e outros alunos.
+Ao terminar de responder as perguntas é gerada uma pontuação na qual o aluno pode compartilhar sua nota com o professor e outros alunos.
 
 Aplicativo Android.
 
