@@ -1,0 +1,47 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/Green500</item>
+        <item name="colorPrimaryDark">@color/Green800</item>
+        <item name="colorAccent">@color/Green700</item>
+        <item name="colorControlNormal">@color/Green300</item>
+        <item name="colorControlHighlight">@color/Green400</item>
+        <item name="android:windowActionBar">true</item>
+        <item name="android:textColorPrimary">@color/BackLight</item>
+        <item name="android:textColorSecondary">@color/Grey</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="textToolBar" parent="android:style/TextAppearance.Holo.Widget.ActionBar.Menu">
+        <item name="android:textColor">@color/Green50</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="appToolBar">
+        <item name="windowActionBar">false</item>
+        <item name="colorPrimary">@color/Green500</item>
+        <item name="colorPrimaryDark">@color/Green800</item>
+        <item name="colorAccent">@color/Green400</item>
+        <item name="android:textColorPrimary">@color/Green50</item>
+        <item name="android:textColorSecondary">@color/GreenA100</item>
+        <item name="android:titleTextAppearance">@style/textToolBar</item>
+        <item name="android:elevation">5dp</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="AppEditText" parent="Widget.AppCompat.EditText">
+
+    </style>
+
+    <style name="AppImageButton" parent="Widget.AppCompat.Button">
+        <item name="android:tint">@color/Green700</item>
+        <item name="android:padding">2dp</item>
+        <item name="android:background">?attr/selectableItemBackgroundBorderless</item>
+    </style>
+
+</resources>

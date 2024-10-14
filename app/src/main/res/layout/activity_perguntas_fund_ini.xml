@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/Green100"
+    android:orientation="vertical">
+
+    <include layout="@layout/app_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+        <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="180dp"
+            android:maxHeight="300dp"
+            android:minHeight="240dp"
+            android:scaleType="fitStart"
+            android:id="@+id/ivwImagem"
+            android:src="@drawable/ic_criancas" />
+
+        <ImageView
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="110dp"
+            android:id="@+id/ivwNum_pergunta"
+            android:tint="@color/Green700" />
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="7dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@color/BackLight"
+                android:layout_marginTop="5dp"
+                android:textSize="18sp"
+                android:id="@+id/txtPergunta_iniciais"
+                android:textStyle="bold" />
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp">
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/rdbResp1_iniciais"
+                    android:textColor="@color/BackLight"
+                    android:textSize="16sp" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/BackLight"
+                    android:textSize="16sp"
+                    android:id="@+id/rdbResp2_iniciais"/>
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/BackLight"
+                    android:textSize="16sp"
+                    android:id="@+id/rdbResp3_iniciais"/>
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/BackLight"
+                    android:textSize="16sp"
+                    android:id="@+id/rdbResp4_iniciais" />
+            </RadioGroup>
+
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp">
+                <android.widget.Space android:layout_weight="4"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1.5"
+                android:layout_height="wrap_content"
+                android:text="Próxima"
+                android:layout_gravity="center_vertical"
+                android:textSize="20sp"
+                android:textColor="@color/BackLight"
+                android:textStyle="bold"/>
+
+            <ImageButton
+                android:layout_width="0dp"
+                android:layout_weight="0.9"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnProximo_iniciais"
+                style="@style/AppImageButton"
+                android:src="@drawable/ic_start"/>
+            </TableRow>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
